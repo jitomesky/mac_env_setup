@@ -93,11 +93,17 @@ brew cask install sublime-text
 # programming tools
 # python3
 brew install python3
+
 # R
 brew install r
+
 # haskell
 brew install ghc cabal-install
+export PATH=$PATH:~/.cabal/bin
+echo "export PATH=$PATH:~/.cabal/bin" >> ~/.bash_profile
 # install pandoc
+cabal install pandoc
+
 # Ruby with rbenv
 brew install rbenv ruby-build
 echo '# rbenv path' >> ~/.bash_profile
