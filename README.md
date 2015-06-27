@@ -1,2 +1,9 @@
 # mac_env_setup
-my Mac setup script
+This is my Mac environment setup script.
+
+please execute setup.sh
+
+```bash
+$ chmod +x setup.sh
+$ ./setup.sh
+```
