@@ -60,6 +60,8 @@ brew cask install xtrafinder
 brew cask install shiftit
 # Chrome
 brew cask install google-chrome chrome-remote-desktop-host
+# Google Japanese IME
+brew cask google-japanese-ime
 # Dropbox
 brew cask install dropbox
 # Skype
