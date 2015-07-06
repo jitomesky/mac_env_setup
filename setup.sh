@@ -4,6 +4,9 @@
 exec 1> >(tee -a setup_out.log)
 exec 2> >(tee -a setup_err.log >&2)
 
+# set screensaver alias
+echo $'alias screensaver=\'open /System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app\'' >> ~/.bash_profile
+
 # homebrew
 # http://brew.sh/
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
